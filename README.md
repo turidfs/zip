@@ -16,6 +16,8 @@ cd til riktig mappe, for å komme et hakk opp i mappestrukturen er det "cd .."
 
 "git push" for å laste opp endringene dine
 
+"git mv *nåværende filnavn* *ønsket filnavn*" for å gi nytt navn til filer
+
 
 Git i Desktop appen:
 
