@@ -2,12 +2,15 @@
 <html>
 <head>
 	<title>ZiP</title>
-	<link rel="stylesheet" type="text/css" href="css/main-style.css" />
-	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/mobilPortrait.css" />
+	<meta charset="utf-8"> 
 </head>
+    
 <body>
 	<header>
-        <svg height="100" width="150" class="logo">
+        <!-- <h1><a href="index.html">ZiP</a></h1> -->
+        <a href="index.html">
+            <svg height="100" width="150" class="logo">
             <defs>
                 <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
                     <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
@@ -17,7 +20,8 @@
             <ellipse cx="60" cy="50" rx="60" ry="50" fill="url(#grad1)" />
             <text fill="#ffffff" font-size="45" font-family="Verdana" x="25" y="60">ZiP</text>
             Sorry, your browser does not support inline SVG.
-        </svg>
+            </svg>
+        </a>
         <!--<svg width="100" height="100" class="menu">
             <circle cx="50" cy="50" r="50" fill="yellow" />
             <rect x="25" y="20" rx="5" ry="10" width="50" height="10" style="fill:rgb(0,0,255);" />
@@ -30,7 +34,7 @@
             <text fill="#000" font-size="20" font-family="Verdana" x="20" y="55">Home</text>
             <rect x="25" y="70" rx="5" ry="10" width="50" height="10" style="fill:rgb(0,0,255);" />
         </svg>
-        <!--<h1><a href="index.html">ZiP</a></h1>
+        
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -51,49 +55,27 @@
                 <li><a>Shop</a></li>
 				
 			</ul>
-		</nav>-->
+		</nav>
 
 	</header>
     
+    
+    
+    
+    
 	<main>
+        
 		<section id="slider">
             <p>Her kommer det masse kule bilder.</p>
-            
-            
-            
             <div class="w3-content" style="max-width:800px;position:relative">
-  <img class="mySlides" src="image/test/img_fjords.jpg" style="width:100%">
-  <img class="mySlides" src="image/test/img_lights.jpg" style="width:100%">
-  <img class="mySlides" src="image/test/img_mountains.jpg" style="width:100%">
-  <img class="mySlides" src="image/test/img_forest.jpg" style="width:100%">
+              <img class="mySlides" src="image/test/img_fjords.jpg" style="width:100%">
+              <img class="mySlides" src="image/test/img_lights.jpg" style="width:100%">
+              <img class="mySlides" src="image/test/img_mountains.jpg" style="width:100%">
+              <img class="mySlides" src="image/test/img_forest.jpg" style="width:100%">
 
-  <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><img src="image/test/left-black-arrow-hi.png" /></a>
-  <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)"><img src="image/test/right-black-arrow-hi.png" /></a>
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-            
-            
-            
-            
+              <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><img src="image/test/left-black-arrow-hi.png" /></a>
+              <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)"><img src="image/test/right-black-arrow-hi.png" /></a>
+            </div>
             
 		</section>
         <section>
@@ -120,6 +102,42 @@ function showDivs(n) {
         </aside>
 	</main>
 	<footer>
+        <section id="social">
+			<ul>
+				<li><a href="http://www.twitter.com">Twitter</a></li>
+				<li><a href="http://www.facebook.com">Facebook</a></li>
+				<li><a href="http://www.youtube.com">Youtube</a></li>
+				<li><a href="http://www.soundcloud.com">Soundcloud</a></li>
+			</ul>
+		</section>
+		<section id="copyrights">
+			<p>© 2016 Zelda In Park. All rights reserved. design by Awesome People. Powered by Hiof</p>
+			<p><a href="">Privacy Policy</a> | <a href="">Terms of Service</a> | <a href="">WU Privacy Policy</a> | <a href="">WU Terms of Service</a></p>
+			<p>Visit <a href="">www.OnGuardOnline.gov</a> for social networking safety tips for parents and youth.</p>
+		</section>
 	</footer>
+    
+    
+    
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+    </script>
 </body>
 </html>

@@ -1,4 +1,12 @@
-body {
-  width: 80%;
-  margin: 0 auto;
+
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+aside article {
+    width: 100%;
+    flex: 4;
 }
