@@ -13,11 +13,10 @@
         <h2>Butikker</h2>
         <article>
             <h3>Butikker</h3>
-            <p>Butikk 1</p>
-            <p>Butikk 2</p>
-            <p>Butikk 3</p>
-            <p>Butikk 4</p>
-            <p>Butikk 5</p>
+            <p>Musikk</p>
+            <p>Klær</p>
+            <p>Posters</p>
+            <p>Merch</p>
         </article>
         <aside>
             <?php include 'twitter.php'; ?>
