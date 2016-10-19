@@ -2,34 +2,33 @@
 <html>
 <head>
 	<title>ZiP</title>
-	<link rel="stylesheet" type="text/css" href="css/main-style.css" />
-	<meta charset="utf-8">
+	<?php include 'head.php'; ?>
 </head>
 <body>
 	<header>
-		<h1>Social</h1>
-		<nav>
-			<p>Meny inkluderes her</p>
-		</nav>
+        <?php include 'header.php'; ?>
+		<h1>Blog</h1>
 	</header>
 	<main>
-        <h2>Bloggerne</h2>
-        <figure>
-            <img src="image/blog.png" />
-            <figcaption>Felles</figcaption>
-        </figure>
-        <figure>
-            <img src="image/blog.png" />
-            <figcaption>Natalie</figcaption>
-        </figure>
-        <figure>
-            <img src="image/blog.png" />
-            <figcaption>Fredrik</figcaption>
-        </figure>
-        <figure>
-            <img src="image/blog.png" />
-            <figcaption>Irene</figcaption>
-        </figure>
+        <section class="bloggerne">
+            <!-- <h2>Bloggerne</h2> -->
+            <figure>
+                <img src="image/blogSmall.png" />
+                <figcaption>Felles</figcaption>
+            </figure>
+            <figure>
+                <img src="image/blogSmall.png" />
+                <figcaption>Natalie</figcaption>
+            </figure>
+            <figure>
+                <img src="image/blogSmall.png" />
+                <figcaption>Fredrik</figcaption>
+            </figure>
+            <figure>
+                <img src="image/blogSmall.png" />
+                <figcaption>Irene</figcaption>
+            </figure>
+        </section>
         
         <h2>Siste poster</h2>
         <article>
@@ -41,15 +40,10 @@
             <p>Aenean nec diam est. Nulla sollicitudin nisi vel diam consequat convallis. Quisque semper urna tellus, ut aliquet libero convallis fermentum. Sed a sem vel ligula maximus tincidunt. Sed nec vehicula nunc, at dictum neque. Fusce quis eros varius, tristique erat id, vestibulum metus. Cras ligula neque, convallis non lorem nec, ullamcorper fermentum odio.</p>
         </article>
         <aside>
-            <h2>Tweets</h2>
-            <article>
-                <img src="image/twitter.png" /><p>Dette er en meget spennende tweet om noe veldig interessant.</p>
-            </article>
-            <h2>Tracks</h2>
-            <p>Her kommer det masse spennende musikk.</p>
+            <?php include 'twitter.php'; ?>
+            <?php include 'tracks.php'; ?>
         </aside>
 	</main>
-	<footer>
-	</footer>
+	<?php include 'footer.php'; ?>
 </body>
 </html>

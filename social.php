@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ZiP</title>
-	<link rel="stylesheet" type="text/css" href="css/main-style.css" />
-	<meta charset="utf-8">
+	<title>ZiP - Social</title>
+    <?php include 'head.php'; ?>
 </head>
 <body>
-	<!-- <header>
-		<h1>Social</h1>
-		<nav>
-			<p>Meny inkluderes her</p>
-		</nav>
-        
-	</header>-->
-    <?php include 'header.php'; ?>
+    <header>
+        <?php include 'header.php'; ?>
+        <h1>Social</h1>
+    </header>
 	<main>
-        <button><a href="blog.html">Blog</a></button>
+        <button><a href="blog.php">Blog</a></button>
         <h2>Nyheter</h2>
         <article>
             <h3>En helt ubegripelig spennende nyhet!</h3>
@@ -26,15 +21,10 @@
             <p>Aenean nec diam est. Nulla sollicitudin nisi vel diam consequat convallis. Quisque semper urna tellus, ut aliquet libero convallis fermentum. Sed a sem vel ligula maximus tincidunt. Sed nec vehicula nunc, at dictum neque. Fusce quis eros varius, tristique erat id, vestibulum metus. Cras ligula neque, convallis non lorem nec, ullamcorper fermentum odio.</p>
         </article>
         <aside>
-            <h2>Tweets</h2>
-            <article>
-                <img src="image/twitter.png" /><p>Dette er en meget spennende tweet om noe veldig interessant.</p>
-            </article>
-            <h2>Tracks</h2>
-            <p>Her kommer det masse spennende musikk.</p>
+            <?php include 'twitter.php'; ?>
+            <?php include 'tracks.php'; ?>
         </aside>
 	</main>
-	<footer>
-	</footer>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

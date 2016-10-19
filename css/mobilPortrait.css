@@ -1,12 +1,17 @@
 
-
-aside {
+aside, .tweets {
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
 }
 
-aside article {
-    width: 100%;
-    flex: 4;
+.bloggerne {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.bloggerne figure {
+    margin: 5px;
 }
