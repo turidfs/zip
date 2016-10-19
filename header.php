@@ -1,4 +1,3 @@
-
 	<header>
         <!-- <h1><a href="index.html">ZiP</a></h1> -->
         <a href="index.html">
@@ -26,9 +25,9 @@
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
                 <li><a href="events.html">Events/Tours</a></li>
-                <li><a href="social.html">Social</a>
+                <li><a href="social.php">Social</a>
                     <ul>
-                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blog.php">Blog</a></li>
                     </ul>
                 </li>
 				<li><a href="media/tracks.html">Media</a>
