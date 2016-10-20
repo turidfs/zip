@@ -1,4 +1,9 @@
+<script>
+    burgerButton(){
+        alert("I am an alert box!");
+    }
 
+</script>
         <a href="index.php">
             <svg height="100" width="150" class="logo">
             <defs>
@@ -12,7 +17,7 @@
             Sorry, your browser does not support inline SVG.
             </svg>
         </a>
-        <svg width="100" height="100" class="menu" id="burger-button">
+        <svg width="100" height="100" class="menu" id="burger-button" onclick="burgerButton();">
             <circle cx="50" cy="50" r="50" fill="purple" />
             <rect x="25" y="20" rx="5" ry="10" width="50" height="10" fill="deeppink" />
             <rect x="25" y="45" rx="5" ry="10" width="50" height="10" fill="deeppink" />
@@ -34,3 +39,6 @@
                 <li><a href="shop.php">Shop</a></li>
 			</ul>
 		</nav>
+
+
+
