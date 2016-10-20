@@ -1,5 +1,5 @@
 
-        <a href="index.html">
+        <a href="index.php">
             <svg height="100" width="150" class="logo">
             <defs>
                 <radialGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -25,10 +25,11 @@
 				<li><a href="about.php">About</a></li>
                 <li><a href="events.php">Events/Tours</a></li>
                 <li><a href="social.php">Social</a>
-        	       <ul class="dropdown-child isHidden">
+        	       <!--<ul class="dropdown-child isHidden">
                        <li><a href="blog.php">Blog</a></li>
-                    </ul>
+                    </ul>-->
                 </li>
+                <li><a href="blog.php">Blog</a></li>
 				<li><a href="media.php">Media</a></li>
                 <li><a href="shop.php">Shop</a></li>
 			</ul>

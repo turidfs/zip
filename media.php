@@ -14,7 +14,6 @@
 	<main>
         <?php include 'pictureSlide.php'; ?>
         <?php include 'media/videos.php'; ?>
-        <?php include 'news.php'; ?>
         <aside>
             <?php include 'twitter.php'; ?>
             <?php include 'tracks.php'; ?>

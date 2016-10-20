@@ -73,6 +73,22 @@ article, section, div, header, footer, main, nav, ul, li {
   right: 0;
   min-height: 100%;
   background: #bbb;
+    background-color: purple;
+    margin: 5px;
+}
+
+nav ul {
+    padding: 5px;
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+    color: purple;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .isHidden {
