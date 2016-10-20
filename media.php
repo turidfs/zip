@@ -14,9 +14,9 @@
 	<main>
         <?php include 'moduler/pictureSlide.php'; ?>
         <?php include 'moduler/videos.php'; ?>
+        <?php include 'moduler/tracks.php'; ?>
         <aside>
             <?php include 'moduler/twitter.php'; ?>
-            <?php include 'moduler/tracks.php'; ?>
         </aside>
 	</main>
     <?php include 'moduler/footer.php'; ?>

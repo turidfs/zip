@@ -13,7 +13,7 @@
         <?php include 'moduler/news.php'; ?>
         <aside>
             <?php include 'moduler/twitter.php'; ?>
-            <?php include 'moduler/tracks.php'; ?>
+            <?php include 'moduler/tracksQuick.php'; ?>
         </aside>
 	</main>
     <?php include 'moduler/footer.php'; ?>
