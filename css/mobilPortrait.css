@@ -14,17 +14,17 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: 10px;
 }
 
-nav {
+nav, footer {
     display: block;
 }
 
-nav ul {
+nav ul, footer ul {
     display: block;
     padding: 5px;
     background-color: purple;
 }
 
-nav ul li {
+nav ul li, footer ul li {
     display: block;
     text-align: center;
     padding: 10px;
@@ -36,6 +36,7 @@ nav ul li {
     color: purple;
     border-radius: 20px;
     margin-bottom: 10px;
+    font-size: 200%;
 }
 
 .isHidden {
@@ -43,7 +44,7 @@ nav ul li {
 }
 
 
-aside, .tweets {
+aside, .tweets, .tracks {
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
