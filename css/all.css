@@ -64,3 +64,87 @@ body {
 article, section, div, header, footer, main, nav, ul, li {
   box-sizing: border-box;
 }
+
+#main-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 100%;
+  background: #bbb;
+    background-color: purple;
+    margin: 5px;
+}
+
+nav ul {
+    padding: 5px;
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+    color: purple;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.isHidden {
+  display: none;
+}
+
+#burger-button {
+  font-size: 50pt;
+  display: inline-block;
+  padding: 5px;
+  background: #ddd;
+}
+
+
+#slider img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* Nullstillinger start */
+/* Nullstillinger slutt */
+
+
+
+/* Størrelser og plassering start */
+/* Størrelser og plassering slutt */
+
+
+
+/* Tekst instillinger start */
+/* Tekst instillinger slutt */
+
+
+
+/* Bilder, filmer, audio start */
+/* Bilder, filmer, audio slutt */
+
+
+
+/* Meny start */
+/* Meny slutt */
+
+
+
+/* Footer start */
+/* Footer slutt */
+
+
+
+/* Header start */
+/* Header slutt */
+
+
+
+/* Farger start */
+/* Farger slutt */
