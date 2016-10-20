@@ -3,7 +3,7 @@
         <section>
             <figure>
                 <figcaption><h3>Hybrid Theory</h3></figcaption>
-                <img src="media/image/hybridtheory.jpeg" alt="Hybrid Theory Album Cover" />
+                <img src="image/hybridtheory.jpeg" alt="Hybrid Theory Album Cover" />
             </figure>
             <article class="tracks">
                 <h4>In the end</h4>
@@ -23,7 +23,7 @@
         <section>
             <figure>
                 <figcaption><h3>Meteora</h3></figcaption>
-                <img src="media/image/meteora.jpeg" alt="Meteora Album Cover" />
+                <img src="image/meteora.jpeg" alt="Meteora Album Cover" />
             </figure>
             <article class="tracks">
                 <h4>Breaking the habit</h4>

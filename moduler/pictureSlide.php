@@ -1,18 +1,18 @@
         <section id="slider" class="w3-content" style="max-width:800px;position:relative">
                 <figure class="mySlides">
-                    <img src="slider/test.jpg" style="width:100%">
+                    <img src="image/test.jpg" style="width:100%">
                     <figcaption>Bilde 1</figcaption>
                 </figure>
                 <figure class="mySlides">
-                    <img src="media/image/img1.jpg" style="width:100%">
+                    <img src="image/img1.jpg" style="width:100%">
                     <figcaption>Bilde 2</figcaption>
                 </figure>
                 <figure class="mySlides">
-                    <img src="media/image/img2.jpg" style="width:100%">
+                    <img src="image/img2.jpg" style="width:100%">
                     <figcaption>Bilde 3</figcaption>
                 </figure>
                 <figure class="mySlides">
-                    <img src="media/image/img3.jpg" style="width:100%">
+                    <img src="image/img3.jpg" style="width:100%">
                     <figcaption>Bilde 4</figcaption>
                 </figure>
 

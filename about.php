@@ -2,15 +2,15 @@
 <html>
 <head>
 	<title>ZiP - About</title>
-    <?php include 'head.php'; ?>
+    <?php include 'moduler/head.php'; ?>
 </head>
 <body>
     <header>
-        <?php include 'header.php'; ?>
+        <?php include 'moduler/header.php'; ?>
         <h1>About</h1>
     </header>
 	<main>
-        <?php include 'pictureSlide.php'; ?>
+        <?php include 'moduler/pictureSlide.php'; ?>
         <h2>About us</h2>
         <p>Aenean nec diam est. Nulla sollicitudin nisi vel diam consequat convallis. Quisque semper urna tellus, ut aliquet libero convallis fermentum. Sed a sem vel ligula maximus tincidunt. Sed nec vehicula nunc, at dictum neque. Fusce quis eros varius, tristique erat id, vestibulum metus. Cras ligula neque, convallis non lorem nec, ullamcorper fermentum odio.</p>
         <article>
@@ -34,10 +34,10 @@
             <p>Duis eget auctor metus, eu euismod nulla. Aliquam molestie ipsum non finibus tristique. Pellentesque ac vestibulum augue. Morbi odio dolor, vehicula sed libero eu, consequat fermentum nunc. Aliquam erat volutpat. Nullam lobortis, sem nec congue laoreet, ex augue laoreet dui, id aliquam libero orci vitae arcu. In et scelerisque neque. Aliquam semper ligula a libero finibus, vitae auctor enim placerat.</p>
         </article>
         <aside>
-            <?php include 'twitter.php'; ?>
-            <?php include 'tracks.php'; ?>
+            <?php include 'moduler/twitter.php'; ?>
+            <?php include 'moduler/tracks.php'; ?>
         </aside>
 	</main>
-    <?php include 'footer.php'; ?>
+    <?php include 'moduler/footer.php'; ?>
 </body>
 </html>

@@ -2,24 +2,24 @@
 <html>
 <head>
 	<title>ZiP - Home</title>
-	<?php include 'head.php'; ?>
+	<?php include 'moduler/head.php'; ?>
 </head>
     
 <body>
 	<header>
-        <?php include 'header.php'; ?>
+        <?php include 'moduler/header.php'; ?>
         <h1>Home</h1>
 	</header>
     
 	<main>
-        <?php include 'pictureSlide.php'; ?>
-        <?php include 'news.php'; ?>
-        <?php include 'eventsList.php'; ?>
+        <?php include 'moduler/pictureSlide.php'; ?>
+        <?php include 'moduler/news.php'; ?>
+        <?php include 'moduler/eventsList.php'; ?>
         <aside>
-            <?php include 'twitter.php'; ?>
-            <?php include 'tracks.php'; ?>
+            <?php include 'moduler/twitter.php'; ?>
+            <?php include 'moduler/tracks.php'; ?>
         </aside>
 	</main>
-    <?php include 'footer.php'; ?>
+    <?php include 'moduler/footer.php'; ?>
 </body>
 </html>
