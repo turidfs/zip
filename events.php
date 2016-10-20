@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ZiP</title>
+	<title>ZiP - Events</title>
 	<?php include 'head.php'; ?>
 </head>
 <body>

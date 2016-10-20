@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ZiP - Social</title>
-    <?php include 'head.php'; ?>
+	<title>ZiP - Home</title>
+	<?php include 'head.php'; ?>
 </head>
+    
 <body>
-    <header>
+	<header>
         <?php include 'header.php'; ?>
-        <h1>Social</h1>
-    </header>
+        <h1>Home</h1>
+	</header>
+    
 	<main>
-        <button><a href="blog.php">Blog</a></button>
+        <?php include 'pictureSlide.php'; ?>
         <?php include 'news.php'; ?>
         <aside>
             <?php include 'twitter.php'; ?>

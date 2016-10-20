@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ZiP - Social</title>
+	<title>ZiP - Shop</title>
     <?php include 'head.php'; ?>
 </head>
 <body>

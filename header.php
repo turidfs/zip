@@ -1,5 +1,4 @@
 
-        <!-- <h1><a href="index.html">ZiP</a></h1> -->
         <a href="index.html">
             <svg height="100" width="150" class="logo">
             <defs>
@@ -20,31 +19,10 @@
             <rect x="25" y="70" rx="5" ry="10" width="50" height="10" fill="deeppink" />
         </svg>
         
-        <!--<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-                <li><a href="events.html">Events/Tours</a></li>
-                <li><a href="social.php">Social</a>
-                    <ul>
-                        <li><a href="blog.php">Blog</a></li>
-                    </ul>
-                </li>
-				<li><a href="media/tracks.html">Media</a>
-					<ul>
-						<li><a href="media/tracks.html">Tracks</a></li>
-						<li><a href="media/pictures.html">Pictures</a></li>
-						<li><a href="media/videos.html">Videos</a></li>
-					</ul>
-				</li>
-                <li><a>Shop</a></li>
-				
-			</ul>
-		</nav>-->
         <nav id="main-nav" class="isHidden">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="about.php">About</a></li>
                 <li><a href="events.php">Events/Tours</a></li>
                 <li><a href="social.php">Social</a>
         	       <ul class="dropdown-child isHidden">

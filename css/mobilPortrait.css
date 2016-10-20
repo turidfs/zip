@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 
 aside, .tweets {
     display: flex;
@@ -9,9 +13,26 @@ aside, .tweets {
     display: flex;
     flex-wrap: nowrap;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
 .bloggerne figure {
     margin: 5px;
+}
+
+.pictureLeftArrow, .pictureRightArrow, .pictureLeftArrow img, .pictureRightArrow img {
+    position: absolute;
+}
+.pictureLeftArrow, .pictureRightArrow {
+    height: 100%;
+    width: 10%;
+    top: 0;
+}
+.pictureLeftArrow img, .pictureRightArrow img {
+    top: 45%;
+}
+.pictureLeftArrow, .pictureLeftArrow img {
+    left: 0;
+}
+.pictureRightArrow, .pictureRightArrow img {
+    right: 0;
 }

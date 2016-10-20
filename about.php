@@ -1,38 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ZiP - Blog</title>
-	<?php include 'head.php'; ?>
+	<title>ZiP - About</title>
+    <?php include 'head.php'; ?>
 </head>
 <body>
-	<header>
+    <header>
         <?php include 'header.php'; ?>
-		<h1>Blog</h1>
-	</header>
+        <h1>About</h1>
+    </header>
 	<main>
-        <section class="bloggerne">
-            <!-- <h2>Bloggerne</h2> -->
-            <figure>
-                <img src="image/blogSmall.png" />
-                <figcaption>Felles</figcaption>
-            </figure>
-            <figure>
-                <img src="image/blogSmall.png" />
-                <figcaption>Natalie</figcaption>
-            </figure>
-            <figure>
-                <img src="image/blogSmall.png" />
-                <figcaption>Fredrik</figcaption>
-            </figure>
-            <figure>
-                <img src="image/blogSmall.png" />
-                <figcaption>Irene</figcaption>
-            </figure>
-        </section>
-        
-        <h2>Siste poster</h2>
+        <?php include 'pictureSlide.php'; ?>
+        <h2>About us</h2>
         <article>
-            <h3>En helt ubegripelig spennende post!</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta mattis lacus ornare convallis. Nam pretium lacinia congue. Suspendisse euismod nibh lorem, at suscipit nisi eleifend vitae. Maecenas vel varius sapien. Phasellus leo arcu, lacinia et sodales id, iaculis vitae tortor. Aenean porttitor nulla dapibus, rhoncus arcu et, volutpat magna. Cras mollis nec turpis eu rhoncus. Maecenas faucibus, velit hendrerit dictum porta, nisl est tincidunt tellus, sit amet tempus felis libero eget augue. Etiam non dolor eget ante bibendum suscipit pharetra id nisl. Curabitur euismod ultricies ante sed dignissim. Cras interdum ligula aliquet, congue nulla sed, viverra sem. Etiam imperdiet tempus mauris eu varius.</p>
             <p>Nullam gravida tempus nulla, ut tempor elit. Nam tincidunt massa arcu, id placerat dui convallis eu. Nullam est justo, vestibulum at venenatis nec, viverra at lacus. Quisque eu ipsum ac nunc accumsan suscipit. Vestibulum vel metus tortor. Aliquam eros dolor, aliquam quis volutpat et, rhoncus sed nunc. Etiam lacus ex, sagittis eu pellentesque volutpat, imperdiet non erat. Mauris vitae leo nec urna volutpat sollicitudin. Etiam semper molestie nisi, quis posuere enim accumsan at. Aenean sit amet orci libero. Curabitur vulputate consectetur lorem non facilisis. Curabitur pretium quam a magna consequat pretium. Mauris porttitor, metus vitae ornare tempus, quam felis molestie nisi, id finibus tortor elit sed nibh.</p>
             <p>Morbi quis imperdiet risus. Integer consectetur justo quis mauris blandit posuere. Suspendisse posuere leo eget varius rhoncus. Donec ut malesuada sem. Donec vitae condimentum felis, vitae eleifend velit. Aenean molestie orci dui, in dictum turpis volutpat a. In hac habitasse platea dictumst. Donec et turpis sodales, auctor diam ac, volutpat purus. Nullam ac elit id eros luctus facilisis.</p>
@@ -44,6 +24,6 @@
             <?php include 'tracks.php'; ?>
         </aside>
 	</main>
-	<?php include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
