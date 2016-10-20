@@ -58,51 +58,9 @@ body {
   background: -webkit-linear-gradient(top,  rgb(247,247,247) 0%,rgb(221,241,255) 99%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  rgb(247,247,247) 0%,rgb(221,241,255) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ddf1ff',GradientType=0 ); /* IE6-9 */
-  width:100%;
-  float: left;
-  position: relative;
+	position: relative;
 }
 
 article, section, div, header, footer, main, nav, ul, li {
   box-sizing: border-box;
-}
-
-#main-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  min-height: 100%;
-  background: #bbb;
-    background-color: purple;
-    margin: 5px;
-}
-
-nav ul {
-    padding: 5px;
-}
-
-nav ul li {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    background-color: pink;
-    color: purple;
-    border-radius: 20px;
-    margin-bottom: 10px;
-}
-
-.isHidden {
-  display: none;
-}
-
-#burger-button {
-  font-size: 50pt;
-  display: inline-block;
-  padding: 5px;
-  background: #ddd;
-}
-
-
-#slider img {
-  width: 100%;
 }
