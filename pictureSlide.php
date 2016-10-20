@@ -16,8 +16,8 @@
                     <figcaption>Bilde 4</figcaption>
                 </figure>
 
-              <a class="w3-btn-floating pictureLeftArrow" onclick="plusDivs(-1)"><img src="image/test/left-black-arrow-hi.png" /></a>
-              <a class="w3-btn-floating pictureRightArrow" onclick="plusDivs(1)"><img src="image/test/right-black-arrow-hi.png" /></a>
+              <a class="w3-btn-floating pictureLeftArrow" onclick="plusDivs(-1)"><img src="image/left-black-arrow-hi.png" /></a>
+              <a class="w3-btn-floating pictureRightArrow" onclick="plusDivs(1)"><img src="image/right-black-arrow-hi.png" /></a>
 		</section>
 
 
