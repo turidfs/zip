@@ -36,3 +36,11 @@ aside, .tweets {
 .pictureRightArrow, .pictureRightArrow img {
     right: 0;
 }
+
+.slides {
+    max-width: 800px;
+    position: relative;
+}
+.slides img {
+    width: 100%;
+}

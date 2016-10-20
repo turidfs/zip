@@ -29,13 +29,7 @@
                        <li><a href="blog.php">Blog</a></li>
                     </ul>
                 </li>
-				<li class="dropdown-parent"><a href="#">Media</a>
-					<ul class="dropdown-child isHidden">
-						<li><a href="media/tracks.html">Tracks</a></li>
-						<li><a href="media/pictures.html">Pictures</a></li>
-						<li><a href="media/videos.html">Videos</a></li>
-					</ul>
-				</li>
+				<li><a href="media.php">Media</a></li>
                 <li><a href="shop.php">Shop</a></li>
 			</ul>
 		</nav>

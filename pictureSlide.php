@@ -1,9 +1,4 @@
-        <section id="slider">
-            <div class="w3-content" style="max-width:800px;position:relative">
-              <img class="mySlides" src="image/test/img_fjords.jpg" style="width:100%">
-              <img class="mySlides" src="image/test/img_lights.jpg" style="width:100%">
-              <img class="mySlides" src="image/test/img_mountains.jpg" style="width:100%">
-              <img class="mySlides" src="image/test/img_forest.jpg" style="width:100%">
+        <section id="slider" class="w3-content" style="max-width:800px;position:relative">
                 <figure class="mySlides">
                     <img src="image/test/img_fjords.jpg" style="width:100%">
                     <figcaption>Bilde 1</figcaption>
@@ -23,7 +18,6 @@
 
               <a class="w3-btn-floating pictureLeftArrow" onclick="plusDivs(-1)"><img src="image/test/left-black-arrow-hi.png" /></a>
               <a class="w3-btn-floating pictureRightArrow" onclick="plusDivs(1)"><img src="image/test/right-black-arrow-hi.png" /></a>
-            </div>
 		</section>
 
 
