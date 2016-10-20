@@ -1,4 +1,23 @@
+
 body {
-  width: 80%;
-  margin: 0 auto;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#burger-button {
+	display: none;
+}
+#main-nav {
+	display: block;
+}
+
+#main-nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: grey;
+}
+
+#main-nav li {
+	display: inline-block;
 }
