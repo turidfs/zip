@@ -99,9 +99,14 @@ h1 {
     text-align: center;
 }
 
-img, video {
+img, video, audio {
     max-height: 90vh;
     max-width: 100vw;
+}
+
+
+audio {
+    width: 100vw;
 }
 
 
