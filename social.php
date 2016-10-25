@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>ZiP - Social</title>
     <?php include 'moduler/head.php'; ?>
