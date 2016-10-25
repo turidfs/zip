@@ -39,6 +39,7 @@
             <p>Patches</p>
         </section>
         <aside>
+            <h2>Streams</h2>
             <?php include 'moduler/twitter.php'; ?>
             <?php include 'moduler/tracksQuick.php'; ?>
         </aside>

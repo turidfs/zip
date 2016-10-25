@@ -1,16 +1,16 @@
         <section class="tracks">
-            <h2>Tracks</h2>
+            <h3>Tracks</h3>
             <section>
-                <h3>Hybrid Theory</h3>
+                <h4>Hybrid Theory</h4>
                 <article class="tracks">
-                    <h4>In the end</h4>
+                    <h5>In the end</h5>
                     <audio controls>
                         <source src="tracks/intheend.mp3" type="audio/mpeg">
                         Your browser doesn't support audio.
                     </audio>
                 </article>
                 <article class="tracks">
-                  <h4>Crawling</h4>
+                  <h5>Crawling</h5>
                   <audio controls>
                     <source src="tracks/crawling.mp3" type="audio/mpeg">
                     Your browser doesn't support audio.
@@ -18,16 +18,16 @@
                 </article>
             </section>
             <section>
-                <h3>Meteora</h3>
+                <h4>Meteora</h4>
                 <article class="tracks">
-                    <h4>Breaking the habit</h4>
+                    <h5>Breaking the habit</h5>
                     <audio controls>
                         <source src="tracks/breakingthehabit.mp3" type="audio/mpeg">
                         Your browser doesn't support audio.
                     </audio>
                 </article>
                 <article class="tracks">
-                    <h4>Numb</h4>
+                    <h5>Numb</h5>
                     <audio controls>
                         <source src="tracks/numb.mp3" type="audio/mpeg">
                         Your browser doesn't support audio.

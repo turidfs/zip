@@ -16,6 +16,7 @@
         <?php include 'moduler/videos.php'; ?>
         <?php include 'moduler/tracks.php'; ?>
         <aside>
+            <h2>Streams</h2>
             <?php include 'moduler/twitter.php'; ?>
         </aside>
 	</main>

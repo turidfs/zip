@@ -4,6 +4,10 @@
 
 
 /* Størrelser og plassering start */
+* {
+    margin-left: 0;
+    margin-right: 0;
+}
 p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -28,7 +32,7 @@ aside, .tweets, .tracks {
 
 
 /* Tekst instillinger start */
-h1 {
+h1, h2, .linkTop, footer h3 {
     text-align: center;
 }
 html {
@@ -38,22 +42,22 @@ nav ul li, footer ul li {
     font-size: 1rem;
 }
 h1 {
-   font-size: 2rem;
+   font-size: 2.25rem;
 }
 h2 {
     font-size: 2rem;
 }
 h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
-h4 {
-    font-size: 2rem;
+h4, footer h2 {
+    font-size: 1.5rem;
 }
-h5 {
-    font-size: 2rem;
+h5, footer h3 {
+    font-size: 1.25rem;
 }
 h6 {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 /* Tekst instillinger slutt */
 
@@ -92,6 +96,8 @@ img, video, audio {
 /* Bilder, filmer, audio slutt */
 
 
+
+/* Meny start */
 nav, footer {
     display: block;
 }
@@ -100,7 +106,7 @@ nav ul, footer ul {
     padding: 5px;
     background-color: purple;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: block;
     text-align: center;
     padding: 10px;

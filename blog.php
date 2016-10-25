@@ -10,8 +10,9 @@
 		<h1>Blog</h1>
 	</header>
 	<main>
+        <h2>Bloggerne</h2><br />
         <section class="bloggerne">
-            <!-- <h2>Bloggerne</h2> -->
+            <!-- <h2>Bloggerne</h2><br />--> <!-- Lagt til br fordi den ødelegger knappene -->
             <figure>
                 <img src="image/blogSmall.png" />
                 <figcaption>Felles</figcaption>
@@ -77,6 +78,7 @@
             </details>
         </article>
         <aside>
+            <h2>Streams</h2>
             <?php include 'moduler/twitter.php'; ?>
             <?php include 'moduler/tracksQuick.php'; ?>
         </aside>

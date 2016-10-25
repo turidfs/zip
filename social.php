@@ -10,8 +10,10 @@
         <h1>Social</h1>
     </header>
 	<main>
+        <h2>Nyheter</h2>
         <?php include 'moduler/news.php'; ?>
         <aside>
+            <h2>Streams</h2>
             <?php include 'moduler/twitter.php'; ?>
             <?php include 'moduler/tracksQuick.php'; ?>
         </aside>

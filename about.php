@@ -34,6 +34,7 @@
             <p>Duis eget auctor metus, eu euismod nulla. Aliquam molestie ipsum non finibus tristique. Pellentesque ac vestibulum augue. Morbi odio dolor, vehicula sed libero eu, consequat fermentum nunc. Aliquam erat volutpat. Nullam lobortis, sem nec congue laoreet, ex augue laoreet dui, id aliquam libero orci vitae arcu. In et scelerisque neque. Aliquam semper ligula a libero finibus, vitae auctor enim placerat.</p>
         </article>
         <aside>
+            <h2>Streams</h2>
             <?php include 'moduler/twitter.php'; ?>
             <?php include 'moduler/tracksQuick.php'; ?>
         </aside>

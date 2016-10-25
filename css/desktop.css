@@ -15,7 +15,7 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	background-color: grey;
+	/*background-color: grey;*/
 }
 
 #main-nav li {
