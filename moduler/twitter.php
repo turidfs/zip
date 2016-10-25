@@ -1,4 +1,4 @@
-        <section class="tweets">
+        <section id="tweets">
             <h3>Tweets</h3>
             <article>
                 <img src="image/twitterSmall.png" align="left" />

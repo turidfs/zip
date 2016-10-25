@@ -12,12 +12,13 @@
 	<main>
         <h2>Concerts/Tour</h2>
         <?php include 'moduler/eventsList.php'; ?>
-        <aside>
-            <h2>Streams</h2>
-            <?php include 'moduler/twitter.php'; ?>
-            <?php include 'moduler/tracksQuick.php'; ?>
-        </aside>
 	</main>
+
+	<aside>
+			<h2>Streams</h2>
+			<?php include 'moduler/twitter.php'; ?>
+			<?php include 'moduler/tracksQuick.php'; ?>
+	</aside>
 	<?php include 'moduler/footer.php'; ?>
 </body>
 </html>

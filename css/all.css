@@ -135,6 +135,24 @@ nav ul li {
 }
 /* Meny slutt */
 
+/* Tweets */
+
+#tweets {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#tweets h3 {
+	width: 100%;
+}
+
+#tweets article {
+
+width: 50%;
+padding-bottom: 10px;
+
+
+}
 
 
 /* Footer start */

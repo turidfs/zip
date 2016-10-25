@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/mobilPortrait.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 480px)" href="css/mobilLandscape.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="css/tabletPortrait.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px)" href="css/tabletLandscape.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 900px)" href="css/tabletLandscape.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="css/desktop.css" />
     <link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
 

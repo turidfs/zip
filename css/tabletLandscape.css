@@ -1,0 +1,41 @@
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#burger-button {
+	display: none;
+}
+#main-nav {
+	display: block;
+}
+
+#main-nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	/*background-color: grey;*/
+}
+
+#main-nav li {
+	display: inline-block;
+}
+
+main {
+  width: 80%;
+  float: left;
+  height: 100%;
+  background: #fff;
+}
+
+aside {
+  background-color: #fff;
+  width: 20%;
+
+  float: left;
+}
+
+footer {
+  float: left;
+  width: 100%;
+}

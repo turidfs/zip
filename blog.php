@@ -30,7 +30,7 @@
                 <figcaption>Irene</figcaption>
             </figure>
         </section>
-        
+
         <h2>Siste poster</h2>
         <article>
             <img src="image/blogSmall.png" align="left"/>
@@ -77,12 +77,13 @@
                 <p>Aenean nec diam est. Nulla sollicitudin nisi vel diam consequat convallis. Quisque semper urna tellus, ut aliquet libero convallis fermentum. Sed a sem vel ligula maximus tincidunt. Sed nec vehicula nunc, at dictum neque. Fusce quis eros varius, tristique erat id, vestibulum metus. Cras ligula neque, convallis non lorem nec, ullamcorper fermentum odio.</p>
             </details>
         </article>
-        <aside>
-            <h2>Streams</h2>
-            <?php include 'moduler/twitter.php'; ?>
-            <?php include 'moduler/tracksQuick.php'; ?>
-        </aside>
 	</main>
+
+	<aside>
+			<h2>Streams</h2>
+			<?php include 'moduler/twitter.php'; ?>
+			<?php include 'moduler/tracksQuick.php'; ?>
+	</aside>
 	<?php include 'moduler/footer.php'; ?>
 </body>
 </html>
