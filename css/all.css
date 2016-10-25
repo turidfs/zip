@@ -79,11 +79,60 @@ article, section, div, header, footer, main, nav, ul, li {
 
 
 /* Bilder, filmer, audio start */
+.pictureLeftArrow, .pictureRightArrow, .pictureLeftArrow img, .pictureRightArrow img {
+    position: absolute;
+}
+.pictureLeftArrow, .pictureRightArrow {
+    height: 100%;
+    width: 10%;
+    top: 0;
+}
+.pictureLeftArrow img, .pictureRightArrow img {
+    top: 45%;
+}
+.pictureLeftArrow, .pictureLeftArrow img {
+    left: 0;
+}
+.pictureRightArrow, .pictureRightArrow img {
+    right: 0;
+}
+.slides {
+    max-width: 800px;
+    position: relative;
+}
+.slides img {
+    width: 100%;
+}
+img, video, audio {
+    max-width: 100%;
+
+}
+
 /* Bilder, filmer, audio slutt */
 
 
 
 /* Meny start */
+nav, footer {
+    display: block;
+}
+nav ul, footer ul {
+    display: block;
+    padding: 5px;
+    background-color: purple;
+}
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+    color: purple;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.isHidden {
+    display: none;
+}
 /* Meny slutt */
 
 
@@ -94,6 +143,10 @@ article, section, div, header, footer, main, nav, ul, li {
 
 
 /* Header start */
+svg.menu {
+    right: 0;
+    position: absolute;
+}
 /* Header slutt */
 
 
@@ -101,11 +154,11 @@ article, section, div, header, footer, main, nav, ul, li {
 /* Farger start */
 body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,ddf1ff+99 */
-  background: rgb(247,247,247); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgb(247,247,247) 0%, rgb(255,192,203) 99%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgb(247,247,247) 0%,rgb(255,192,203) 99%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgb(247,247,247) 0%,rgb(255,192,203) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ddf1ff',GradientType=0 ); /* IE6-9 */
+  background: #eee;
 	position: relative;
+}
+
+header, footer {
+    background-color: silver;
 }
 /* Farger slutt */

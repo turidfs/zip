@@ -4,10 +4,7 @@
 
 
 /* Størrelser og plassering start */
-* {
-    margin-left: 0;
-    margin-right: 0;
-}
+
 p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
     margin-top: 10px;
@@ -60,84 +57,3 @@ h6 {
     font-size: 1rem;
 }
 /* Tekst instillinger slutt */
-
-
-
-/* Bilder, filmer, audio start */
-.pictureLeftArrow, .pictureRightArrow, .pictureLeftArrow img, .pictureRightArrow img {
-    position: absolute;
-}
-.pictureLeftArrow, .pictureRightArrow {
-    height: 100%;
-    width: 10%;
-    top: 0;
-}
-.pictureLeftArrow img, .pictureRightArrow img {
-    top: 45%;
-}
-.pictureLeftArrow, .pictureLeftArrow img {
-    left: 0;
-}
-.pictureRightArrow, .pictureRightArrow img {
-    right: 0;
-}
-.slides {
-    max-width: 800px;
-    position: relative;
-}
-.slides img {
-    width: 100%;
-}
-img, video, audio {
-    max-width: 100%;
-
-}
-
-/* Bilder, filmer, audio slutt */
-
-
-
-/* Meny start */
-nav, footer {
-    display: block;
-}
-nav ul, footer ul {
-    display: block;
-    padding: 5px;
-    background-color: purple;
-}
-nav ul li {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    background-color: pink;
-    color: purple;
-    border-radius: 20px;
-    margin-bottom: 10px;
-}
-.isHidden {
-    display: none;
-}
-/* Meny slutt */
-
-
-
-/* Footer start */
-/* Footer slutt */
-
-
-
-/* Header start */
-svg.menu {
-    right: 0;
-    position: absolute;
-}
-/* Header slutt */
-
-
-
-/* Farger start */
-header, footer {
-    background-color: silver;
-}
-/* Farger slutt */
