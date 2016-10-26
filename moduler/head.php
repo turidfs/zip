@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 900px)" href="css/tabletLandscape.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="css/desktop.css" />
     <link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+		<link href="rss.xml" rel="alternate" type="application/rss+xml" title="Our RSS feed." />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
