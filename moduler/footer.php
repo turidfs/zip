@@ -13,7 +13,7 @@
                 </ul>
             </nav>
 		</section>
-        <section>
+    <section>
             <h3>Nettsidene våre</h3>
             <nav>
                 <ul>

@@ -31,11 +31,20 @@ main {
 aside {
   background-color: #fff;
   width: 20%;
-
+	padding-left: 15px;
   float: left;
 }
 
 footer {
   float: left;
+  width: 100%;
+}
+
+footer section {
+  width: 50%;
+  float: left;
+}
+
+#copyrights {
   width: 100%;
 }

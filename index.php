@@ -8,10 +8,11 @@
 <body>
 	<header id="top">
         <?php include 'moduler/header.php'; ?>
-        <h2>Home</h2>
 	</header>
 
 	<main>
+
+				<h2>Home</h2>
         <?php include 'moduler/pictureSlide.php'; ?>
         <section class="news">
             <h4>Siste nytt</h4>

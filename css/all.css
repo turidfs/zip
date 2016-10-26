@@ -53,7 +53,7 @@ table {
 
 
 
-article, section, div, header, footer, main, nav, ul, li {
+article, section, div, header, footer, main, nav, aside, ul, li {
   box-sizing: border-box;
 }
 
@@ -69,6 +69,8 @@ article, section, div, header, footer, main, nav, ul, li {
 
 
 /* Størrelser og plassering start */
+
+
 /* Størrelser og plassering slutt */
 
 
@@ -97,7 +99,7 @@ article, section, div, header, footer, main, nav, ul, li {
     right: 0;
 }
 .slides {
-    max-width: 800px;
+    max-width: 100%;
     position: relative;
 }
 .slides img {
@@ -108,6 +110,7 @@ img, video, audio {
 
 }
 
+
 /* Bilder, filmer, audio slutt */
 
 
@@ -117,18 +120,11 @@ nav, footer {
     display: block;
 }
 nav ul, footer ul {
-    display: block;
     padding: 5px;
-    background-color: purple;
 }
 nav ul li {
-    display: block;
     text-align: center;
-    padding: 10px;
-    background-color: pink;
-    color: purple;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    padding: 5px;
 }
 .isHidden {
     display: none;
@@ -156,6 +152,17 @@ padding-bottom: 10px;
 
 
 /* Footer start */
+
+footer {
+
+}
+
+#copyrights {
+	padding: 5px;
+	text-align: center;
+	border-top: 1px solid #555;
+}
+
 /* Footer slutt */
 
 
